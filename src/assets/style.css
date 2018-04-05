@@ -1,0 +1,194 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #222;
+  font-weight: 400;
+}
+
+button {
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #556597;
+}
+
+.navbar-brand {
+  color: #7186c7 !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.action-button {
+  background: #7186c7;
+  color: #fff !important;
+  border-radius: 0px;
+  padding: 0.5rem 15px;
+  border-radius: 2px;
+}
+
+nav {
+  min-height: 65px;
+  background: #fff !important;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.auth-container {
+  background: #f9f9f9 !important;
+  min-height: calc(100vh - 65px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+}
+
+a {
+  color: #7186c7;
+}
+
+.svg-inline--fa {
+  color: #7186c7;
+  font-size: 1.2em;
+}
+
+.input-group-text {
+  background: transparent;
+}
+
+.field-holder {
+  margin: 30px 15px;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.auth-card button {
+  background: #7186c7;
+  min-width: 60%;
+  border: none;
+  margin-top: 15px;
+  border-radius: 0;
+}
+
+.auth-card button:hover {
+  background: #556597;
+}
+
+.company-hm {
+  background: #f9f9f9 !important;
+  min-height: calc(100vh - 65px);
+}
+
+.sidebar {
+  background: #313131 !important;
+  min-height: calc(100vh - 65px);
+  padding: 20px 0;
+}
+
+.side-bar-container {
+  min-width: 15%;
+  position: fixed;
+  min-height: calc(100vh - 65px);
+}
+
+.listing-container {
+  margin-left: 15%;
+}
+
+.search-container {
+  padding: 10px 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.listing-container button {
+  background: #313131;
+  color: #fff;
+}
+
+.sd-header {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  line-height: 1.8;
+  letter-spacing: 5px;
+}
+
+.sd-list li {
+  border-top: 1px solid #fff;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.sd-list a {
+  color: #fff;
+}
+
+.sd-list ul {
+  padding: 0;
+  margin: 50px 0 0;
+}
+
+.listing-inner {
+  padding: 10px;
+}
+
+.profile-page {
+    padding:50px 0;
+    text-align: center;
+}
+
+.profile-holder {
+    height:150px;
+    width:150px;
+    font-weight: 300;
+    font-size: 4em;
+    background: #313131;
+    color: #fff;
+    line-height: 2.2;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.profile-stats {
+    text-align: left;
+}
+
+.profile-stats button {
+    color:#fff;
+    background:#313131;
+}
+
+.profile-stats small {
+    font-weight: bold;
+}
+
+.smaller {
+    font-weight: 300;
+    font-size:.96rem;
+}
+
+
